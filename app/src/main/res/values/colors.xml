@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="transparent">#00000000</color>
+    <color name="red">#ff4500</color>
+    <color name="marquee_bg_color">#413458</color>
+    <color name="marquee_text_color">#afafaf</color>
+    <color name="option_shadow_color">#794e2e</color>
+</resources>

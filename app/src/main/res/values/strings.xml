@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">KidsYoga</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="marqueetxt">TABLE OF CONTENTS HAS 6 OPTIONS. SCROLL TO VIEW MORE IF ALL NOT VISIBLE. VISIT US AT www.yogishanti.com</string>
+
+    <string name="from_the_beginnning_string">FROM THE BEGINNING</string>
+    <string name="start_at_sequence_string">START AT SEQUENCE</string>
+    <string name="read_me_the_book_string">READ ME THE BOOK</string>
+    <string name="strike_the_pose_game_string">STRIKE THE POSE GAME</string>
+    <string name="turn_the_page_string">READ ME THE BOOK\nAND TURN PAGES FOR ME</string>
+
+</resources>

@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/menu"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_image">
+
+
+    <TextView
+        android:id="@+id/marqText"
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/marquee_bg_shade"
+        android:ellipsize="marquee"
+        android:fadingEdge="horizontal"
+        android:letterSpacing="0.1"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:paddingBottom="5dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="5dp"
+        android:scrollHorizontally="true"
+        android:singleLine="true"
+        android:text="@string/marqueetxt"
+        android:textColor="@color/marquee_text_color"
+        android:textSize="12sp"
+        android:visibility="gone" />
+
+
+    <ImageView
+        android:id="@+id/girl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="@drawable/background_girl" />
+
+    <ImageView
+        android:id="@+id/table_heading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/girl"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/table_heading" />
+
+
+    <RelativeLayout
+        android:id="@+id/from_the_beginnning"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/girl"
+        android:layout_marginRight="-60dp"
+        android:layout_marginTop="20dp"
+        android:layout_toLeftOf="@id/girl"
+        android:background="@drawable/table_button"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp">
+
+        <TextView
+            android:id="@+id/from_the_beginnning_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:ellipsize="end"
+            android:letterSpacing="0.1"
+            android:maxLines="1"
+            android:shadowColor="@color/option_shadow_color"
+            android:shadowDx="2"
+            android:shadowDy="2"
+            android:shadowRadius="2"
+            android:text="@string/from_the_beginnning_string"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_normal" />
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/start_at_sequence"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/girl"
+        android:layout_marginLeft="-60dp"
+        android:layout_marginTop="20dp"
+        android:layout_toRightOf="@id/girl"
+        android:background="@drawable/table_button"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp">
+
+
+        <TextView
+            android:id="@+id/start_at_sequence_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:ellipsize="end"
+            android:letterSpacing="0.1"
+            android:maxLines="1"
+            android:shadowColor="@color/option_shadow_color"
+            android:shadowDx="2"
+            android:shadowDy="2"
+            android:shadowRadius="2"
+            android:text="@string/start_at_sequence_string"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_normal" />
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/read_me_the_book"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/from_the_beginnning"
+        android:layout_marginRight="-45dp"
+        android:layout_marginTop="20dp"
+        android:layout_toLeftOf="@id/table_heading"
+        android:background="@drawable/table_button"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp">
+
+        <TextView
+            android:id="@+id/read_me_the_book_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:ellipsize="end"
+            android:letterSpacing="0.1"
+            android:maxLines="1"
+            android:shadowColor="@color/option_shadow_color"
+            android:shadowDx="2"
+            android:shadowDy="2"
+            android:shadowRadius="2"
+            android:text="@string/read_me_the_book_string"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_normal" />
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/strike_the_pose_game"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/start_at_sequence"
+        android:layout_marginLeft="-45dp"
+        android:layout_marginTop="20dp"
+        android:layout_toRightOf="@+id/table_heading"
+        android:background="@drawable/table_button"
+        android:gravity="center">
+
+
+        <TextView
+            android:id="@+id/strike_the_pose_game_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:ellipsize="end"
+            android:letterSpacing="0.1"
+            android:maxLines="1"
+            android:shadowColor="@color/option_shadow_color"
+            android:shadowDx="2"
+            android:shadowDy="2"
+            android:shadowRadius="2"
+            android:text="@string/strike_the_pose_game_string"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_normal" />
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/turn_the_page"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/girl"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="-5dp"
+        android:background="@drawable/table_buttonbig"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp">
+
+        <TextView
+            android:id="@+id/turn_the_page_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:letterSpacing="0.1"
+            android:shadowColor="@color/option_shadow_color"
+            android:shadowDx="2"
+            android:shadowDy="2"
+            android:shadowRadius="2"
+            android:text="@string/turn_the_page_string"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_normal" />
+
+    </RelativeLayout>
+
+
+    <ImageView
+        android:id="@+id/info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/turn_the_page"
+        android:layout_marginLeft="20dp"
+        android:background="@drawable/table_about" />
+
+
+</RelativeLayout>

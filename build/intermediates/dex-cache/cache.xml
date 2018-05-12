@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/home/rajesh/.android/build-cache/bc95fa5ef15bccdbf5199502b45f852ab0832113/output/jars/libs/internal_impl-24.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="fcaf463e10e69c1923ccf1edeba3b4196d239e00">
+        <dex dex="/home/rajesh/AndroidStudioProjects/KidsYogaFinal/KidsYoga_Tab/app/build/intermediates/pre-dexed/debug/internal_impl-24.0.0_1fc43662b7b10f7ee83ab6a8f819758d2a349624.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/rajesh/.android/build-cache/bc95fa5ef15bccdbf5199502b45f852ab0832113/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="2f7e6e2dad1bccaf68a8820820adc6c0d5b96d37">
+        <dex dex="/home/rajesh/AndroidStudioProjects/KidsYogaFinal/KidsYoga_Tab/app/build/intermediates/pre-dexed/debug/classes_a81fbde2e73ffd369d545a73ed3736fdb69185e2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/rajesh/.android/build-cache/4b92c09d0796b682969ad04199c1ecc59886f1dc/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="894922f67adeaaef51f077a29e315da21a3382d3">
+        <dex dex="/home/rajesh/AndroidStudioProjects/KidsYogaFinal/KidsYoga_Tab/app/build/intermediates/pre-dexed/debug/classes_a543c6e36d5f6f991c62cceb793f09c87c9406ac.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/rajesh/.android/build-cache/f527882b5fc7ad24b2060ad9ccbb23c4f62fe150/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="0874286cc2fd88d54fdf130e9d5372730da6de97">
+        <dex dex="/home/rajesh/AndroidStudioProjects/KidsYogaFinal/KidsYoga_Tab/app/build/intermediates/pre-dexed/debug/classes_a4d13f6ae260f7e2a5fd51d7e0d235b9211de4b9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/rajesh/.android/build-cache/79e33c2aa74ab2a99c8eebc512d434d63783df81/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="fc29308a7a8f6d4407b34634eb48fb8b817f9b23">
+        <dex dex="/home/rajesh/AndroidStudioProjects/KidsYogaFinal/KidsYoga_Tab/app/build/intermediates/pre-dexed/debug/classes_4154003b13dd4e313b48cb0abf6f917b44be6f8a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/rajesh/.android/build-cache/942cf8df9fc7623b983dd7226f29276f80a4ecc9/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3bd97cfefd783e9de1dd1c30574a6adb44b4409b">
+        <dex dex="/home/rajesh/AndroidStudioProjects/KidsYogaFinal/KidsYoga_Tab/app/build/intermediates/pre-dexed/debug/classes_cf5bd3d83fc3e02a5c0916ea0fa1bbff11bcbcd1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/rajesh/.android/build-cache/6f445dfac181208b629bd5606f75df7b6c2d7e28/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e70f608219ed6b974644c333249ab2bb7b71de98">
+        <dex dex="/home/rajesh/AndroidStudioProjects/KidsYogaFinal/KidsYoga_Tab/app/build/intermediates/pre-dexed/debug/classes_91ee44ad2b4050ad8a365b77df0c5319719155ae.jar" />
+    </item>
+
+</items>
